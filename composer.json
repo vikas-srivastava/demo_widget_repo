@@ -1,7 +1,7 @@
 {
 	"name": "silverstripe/demowidget",
 	"description": "The SilverStripe demo widget",
-
+        "type" : "silverstripe widget",
 	"keywords": ["silverstripe", "cms","widget"],
 	"license": "BSD-3-Clause",
 	"authors": [	
