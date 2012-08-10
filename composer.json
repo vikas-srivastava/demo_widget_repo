@@ -8,18 +8,22 @@
 		{
 		"name": "SilverStripe",
 		"homepage": "http://silverstripe.com",
-		"email" : "support@silverstripe.com",
+		"email" : "viky2130@gmail.com",
 		"role" : "tech-lead"
 		},
 		{
 		"name": "The SilverStripe Community",
-		"homepage": "http://silverstripe.org",
-		"email" : "support@silverstripe.org",
+		"homepage": "http://www.openbees.org",
+		"email" : "vikas@openbees.org",
 		"role" : "developer"
 		}
 	],
 	"require": {
 			"php": ">=5.3.2",
 			"silverstripe/framework": "dev-composer"
-	        	}
+	        	},
+        "extra":
+                {
+                        "snapshot" : "http://spectrum.ieee.org/img/Demo%20logo-1335281160354.jpg"
+                }
 }             
