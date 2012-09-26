@@ -1,29 +1,23 @@
 {
-	"name": "silverstripe/demowidget",
-	"description": "The SilverStripe demo widget",
-        "type" : "silverstripe widget",
-	"keywords": ["silverstripe", "cms","widget"],
-	"license": "BSD-3-Clause",
+	"name": "silverstripe-labs/googleanalytics",
+	"description": "The Google Analytics module consists of 2 components that can be employed independently:
+		The Google Logger injects the google analytics javascript snippet into your source code and logs relevant events (as of now only crawler visits)
+		The Analyzer adds the Google Analytics UI to your CMS.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe-labs", "googleanalytics", "google", "silverstripe"],
 	"authors": [
-		{
-		"name": "SilverStripe",
-		"homepage": "http://silverstripe.com",
-		"email" : "viky2130@gmail.com",
-		"role" : "tech-lead"
-		},
-		{
-		"name": "The SilverStripe Community",
-		"homepage": "http://www.openbees.org",
-		"email" : "vikas@openbees.org",
-		"role" : "developer"
-		}
+	{
+		"name": "Julian Seidenberg",
+		"email": "julian@silverstripe.com"
+	}
 	],
-	"require": {
-			"php": ">=5.3.2",
-			"silverstripe/framework": "dev-composer"
-	        	},
-        "extra":
-                {
-                        "snapshot" : "http://openbees.org/images/Demo.jpg"
-                }
-}             
+	"require":
+	{
+		"silverstripe/framework": "3.*"
+	},
+	"extra":
+    {
+        "snapshot" : "https://raw.github.com/silverstripe-labs/silverstripe-googleanalytics/master/docs/screenshot.png"
+    }
+    
+}
